@@ -1,0 +1,52 @@
+.nav-box{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    
+}
+.left-side-nav{
+    display: flex;
+    flex: 0.5;
+    justify-content: center;
+    color: white;
+}
+.right-side-nav{
+    display: flex;
+    flex: 0.5;
+    color: red;
+    justify-content: center;
+    width: 100%;
+}
+.right-side-nav ul{
+    display: flex;
+    flex: 0.5;
+    background-color: black;
+    
+    align-items: center;
+    width: 100%;
+
+    
+}
+.right-side-nav ul > li{
+    display: flex;
+    margin-left: 3rem;
+    font-size: 20px;
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.right-side-nav ul > li > a{
+    color: red;
+    text-decoration: none;
+}
+
+.right-side-nav ul .active{
+    background-color: green;
+    transition: 0.5s;
+}
+.right-side-nav ul > li:hover {
+    background-color: blue;
+    /* transform: scale(1.1); */
+}

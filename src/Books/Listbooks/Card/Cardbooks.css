@@ -1,0 +1,93 @@
+.card-book-content {
+    width: 25vw;
+    height: 55vh;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-image: url("https://i.pinimg.com/564x/74/c1/06/74c106fba4a8e44b67a9b74e113ac2dd.jpg");
+    /* https://i.pinimg.com/564x/74/c1/06/74c106fba4a8e44b67a9b74e113ac2dd.jpg */
+
+}
+
+.card-book-content:hover {
+    transform: scale(1.1);
+
+}
+
+.title-books {
+    width: 100%;
+    color: white;
+    /* background-color: black;
+    opacity:0.5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.marquee-box {
+    /* background-color: black;
+    opacity:0.5; */
+
+}
+
+.title-books .marquee-box {
+    width: 60%;
+}
+
+.card-book-decription {
+    width: 100%;
+
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    border-radius: 5px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-book-decription span {
+    color: white;
+}
+
+.card-book-decription h5 {
+    color: red;
+}
+.book-buttons {
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width:1200px) {
+    .card-book-content {
+        padding: 20px;
+        width: 40vw;
+        height: 65vh;
+
+    }
+}

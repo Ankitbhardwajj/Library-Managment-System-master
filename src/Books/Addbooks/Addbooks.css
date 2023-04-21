@@ -1,0 +1,69 @@
+.add-books-box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    background-color: black;
+}
+.add-book-img{
+    flex: 0.6;
+}
+.add-book-form{
+    flex: 0.4;
+}
+.add-book-form-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.book-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    width: 70%;
+    display: block;
+    padding: 3px;
+}
+form input[type=text]{
+    width: 96%;
+    height: 4vh;
+    padding: 4px;
+}
+form input[type=date]{
+    width: 96%;
+    height: 4vh;
+    padding: 4px;
+    cursor: pointer;
+}
+form input[type=number]{
+    width: 96%;
+    height: 4vh;
+    padding: 4px;
+    cursor: pointer;
+}
+form button{
+    width: 98%;
+    height: 4vh;
+    padding: 20px;
+    margin-bottom:1em ;
+    color: black;
+    background-color: light gainsboro;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+form .title ,form .author,form .publisher,form .release_date,form .Pages{
+    margin-bottom:1em ;
+}
+form  label{
+    font-size: 20px;
+    color: whitesmoke;
+}

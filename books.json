@@ -1,0 +1,36 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publisher": "Charles Scribner's Sons",
+      "release_date": "April 10, 1925",
+      "pages": 218
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publisher": "J. B. Lippincott & Co.",
+      "release_date": "July 11, 1960",
+      "pages": 281
+    },
+    {
+      "title": "jhksjhasn",
+      "author": "siddharth",
+      "publisher": "siddharth",
+      "release_date": "2022-04-22",
+      "pages": "45",
+      "id": 5
+    },
+    {
+      "title": "Story of My Life ",
+      "author": "siddharth",
+      "publisher": "jalajMaheshwari",
+      "release_date": "2023-04-18",
+      "pages": "45",
+      "id": 6
+    }
+  ]
+}
